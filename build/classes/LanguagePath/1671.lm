@@ -1,0 +1,103 @@
+Language model created by QuickLM on Thu Aug  3 12:22:17 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 11 sentences and 21 words
+
+\data\
+ngram 1=21
+ngram 2=31
+ngram 3=28
+
+\1-grams:
+-0.9920 </s> -0.3010
+-0.9920 <s> -0.2544
+-1.7324 ARE -0.2929
+-1.7324 BROWSER -0.2544
+-1.7324 CLOSE -0.2846
+-2.0334 COLOR -0.2544
+-2.0334 CREATOR -0.2544
+-2.0334 FAVOURITE -0.2970
+-2.0334 HOW -0.2929
+-1.5563 IS -0.2888
+-1.7324 MEDIA -0.2929
+-2.0334 NAME -0.2544
+-1.7324 OPEN -0.2846
+-1.7324 PLAYER -0.2544
+-2.0334 SLEEP -0.2544
+-2.0334 UP -0.2544
+-2.0334 WAKE -0.2970
+-1.7324 WHAT -0.2888
+-1.7324 WHO -0.2804
+-1.7324 YOU -0.2544
+-1.5563 YOUR -0.2888
+
+\2-grams:
+-1.0414 <s> CLOSE 0.0000
+-1.3424 <s> HOW 0.0000
+-1.0414 <s> OPEN 0.0000
+-1.3424 <s> SLEEP 0.0000
+-1.3424 <s> WAKE 0.0000
+-1.0414 <s> WHAT 0.0000
+-1.0414 <s> WHO 0.0000
+-0.3010 ARE YOU 0.0000
+-0.3010 BROWSER </s> -0.3010
+-0.6021 CLOSE BROWSER 0.0000
+-0.6021 CLOSE MEDIA 0.0000
+-0.3010 COLOR </s> -0.3010
+-0.3010 CREATOR </s> -0.3010
+-0.3010 FAVOURITE COLOR 0.0000
+-0.3010 HOW ARE 0.0000
+-0.3010 IS YOUR 0.0000
+-0.3010 MEDIA PLAYER 0.0000
+-0.3010 NAME </s> -0.3010
+-0.6021 OPEN BROWSER 0.0000
+-0.6021 OPEN MEDIA 0.0000
+-0.3010 PLAYER </s> -0.3010
+-0.3010 SLEEP </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 WAKE UP 0.0000
+-0.3010 WHAT IS 0.0000
+-0.6021 WHO ARE 0.0000
+-0.6021 WHO IS 0.0000
+-0.3010 YOU </s> -0.3010
+-0.7782 YOUR CREATOR 0.0000
+-0.7782 YOUR FAVOURITE 0.0000
+-0.7782 YOUR NAME 0.0000
+
+\3-grams:
+-0.6021 <s> CLOSE BROWSER
+-0.6021 <s> CLOSE MEDIA
+-0.3010 <s> HOW ARE
+-0.6021 <s> OPEN BROWSER
+-0.6021 <s> OPEN MEDIA
+-0.3010 <s> SLEEP </s>
+-0.3010 <s> WAKE UP
+-0.3010 <s> WHAT IS
+-0.6021 <s> WHO ARE
+-0.6021 <s> WHO IS
+-0.3010 ARE YOU </s>
+-0.3010 CLOSE BROWSER </s>
+-0.3010 CLOSE MEDIA PLAYER
+-0.3010 FAVOURITE COLOR </s>
+-0.3010 HOW ARE YOU
+-0.7782 IS YOUR CREATOR
+-0.7782 IS YOUR FAVOURITE
+-0.7782 IS YOUR NAME
+-0.3010 MEDIA PLAYER </s>
+-0.3010 OPEN BROWSER </s>
+-0.3010 OPEN MEDIA PLAYER
+-0.3010 WAKE UP </s>
+-0.3010 WHAT IS YOUR
+-0.3010 WHO ARE YOU
+-0.3010 WHO IS YOUR
+-0.3010 YOUR CREATOR </s>
+-0.3010 YOUR FAVOURITE COLOR
+-0.3010 YOUR NAME </s>
+
+\end\
