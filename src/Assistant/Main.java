@@ -26,8 +26,8 @@ public class Main {
         mainwindow.show();
         configuration = new Configuration();
         configuration.setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
-        configuration.setDictionaryPath("file:\\C:\\Users\\bechitra\\Documents\\NetBeansProjects\\Assistant\\src\\DictionaryPath\\1671.dic");
-        configuration.setLanguageModelPath("file:\\C:\\Users\\bechitra\\Documents\\NetBeansProjects\\Assistant\\src\\LanguagePath\\1671.lm");
+        configuration.setDictionaryPath("file:\\C:\\Users\\bechitra\\Documents\\NetBeansProjects\\Assistant\\src\\DictionaryPath\\1671.dic");//This line need to be configured according to users own path;
+        configuration.setLanguageModelPath("file:\\C:\\Users\\bechitra\\Documents\\NetBeansProjects\\Assistant\\src\\LanguagePath\\1671.lm");//This line need to be configured according to users own path;
         recognizer = new LiveSpeechRecognizer(configuration);
         recognizer.startRecognition(true);
         
